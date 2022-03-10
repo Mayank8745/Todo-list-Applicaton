@@ -1,0 +1,154 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+  background: #0c1824;
+  color: whitesmoke;
+}
+
+.Main-Heading {
+  font-size: 2.3rem;
+  margin: 2rem 0rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#Create-Task-Container {
+  background: #14293d;
+  width: 70%;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: auto;
+}
+
+.create-description {
+  input {
+    width: 100%;
+    background: transparent;
+    outline: transparent;
+    border: transparent;
+    border-bottom: 1px solid #aaa;
+    color: whitesmoke;
+    padding: 1rem;
+  }
+}
+
+.des-heading {
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  margin: 1rem 0rem;
+}
+
+#date-category-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-container,
+.category-container {
+  width: 50%;
+  input,
+  select {
+    width: 80%;
+    background: transparent;
+    color: whitesmoke;
+    padding: 0.5rem;
+    border: transparent;
+    border-bottom: 1px solid #aaa;
+  }
+  select {
+    color: #aaa !important;
+  }
+}
+
+#button-container {
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  button {
+    cursor: pointer;
+    padding: 0.8rem;
+    border-radius: 2rem;
+    width: 30%;
+    background: #1d3a57;
+    color: whitesmoke;
+    border: 1px solid #aaa;
+    i {
+      margin-right: 2px;
+    }
+  }
+}
+
+#Previous-Task-Container {
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+  h1 {
+    text-align: center;
+  }
+}
+
+.todo-list-container {
+  ul {
+    list-style: none;
+  }
+  .todo-item {
+    background: #14293d;
+    padding: 1rem;
+    margin: 0.3rem 0rem;
+    min-height: 3rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+}
+
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.description-container {
+  font-size: 1.5rem;
+  width: 30%;
+}
+
+.list-date {
+  width: 30%;
+}
+
+.list-category {
+  width: 20%;
+}
+
+.due-date,
+.list-category-des {
+  text-align: left;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.todo-item button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background: #1d3a57;
+  color: #aaa;
+  border: 1px solid whitesmoke;
+  border-radius: 1rem;
+}
